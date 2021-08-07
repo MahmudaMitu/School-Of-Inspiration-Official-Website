@@ -15,3 +15,11 @@ function scrollFunction() {
     document.getElementById("links").style.marginTop = "100px"; 
   }
 }
+
+
+// var typed = new Typed(".typing", {
+//   strings: [ "Dream | Innovate | Inspire"],
+//   typeSpeed: 100,
+//   backSpeed: 60,
+//   loop: true
+// });
