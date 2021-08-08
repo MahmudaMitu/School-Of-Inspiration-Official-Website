@@ -66,12 +66,13 @@ nav .links::before {
     background: #198fa1;
     background-size: cover;
     position: absolute;
-    top: 0px;
+    top: -15px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.1;
     border-radius: 35px;
+    padding: 30px ;
 }
 
 nav ul li{
