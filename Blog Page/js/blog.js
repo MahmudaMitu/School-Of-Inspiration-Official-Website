@@ -16,10 +16,18 @@ function scrollFunction() {
   }
 }
 
+$(document).ready(function(){
+  var typed = new Typed(".typing", {
+    strings: [ "Dream | Innovate | Inspire"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
 
-// var typed = new Typed(".typing", {
-//   strings: [ "Dream | Innovate | Inspire"],
-//   typeSpeed: 100,
-//   backSpeed: 60,
-//   loop: true
-// });
+  var typed = new Typed(".typing-2", {
+    strings: [ "Read Our Blogs....","About our workshops....", "Our Trainings....","Meet Our Campus Leaders...."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+});
