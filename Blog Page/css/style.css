@@ -1,5 +1,20 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+
+
 body{
-	font-family: Arial;
+	/* font-family:  poppins ; */
 	margin:0;
 	padding:20px;
 	background-color: #161e29;
@@ -145,32 +160,34 @@ nav .icon-burger .line {
 /* header */
 header{
 	background-color: #161e29;
+    font-family: 'Poppins-SemiBold', poppins;
 
 }
 header h1{
 	text-align: center;
 	font-size:60px;
 	color:#ffffff;
-	margin:1.5 0px;
+	margin:1 0px;
     padding-top: 80px;
 }
-header h2{
+/* header h2{
 	text-align: center;
 	font-size:30px;
 	color:#ffffff;
 	margin:1.5 0px;
     
-}
-.type {
+} */
+/* .type {
     text-align: center;
    
 }
 .type span{
     color:#43cfb6;
     font-size: 14px;
-    /* font-weight: 500; */
+    font-weight: 500;
     padding-bottom: 5px;
-}
+    font-family: 'Poppins-SemiBold', poppins;
+} */
 .head{
     text-align: center;
 }
@@ -188,7 +205,7 @@ header h2{
 
 h2{
 	color:#6cbdae;
-margin:1.5 0px;	
+/* margin:1.5 0px;	 */
 }
 h3{
     color:#6cbdae;
@@ -226,7 +243,7 @@ float: left;
 width: 73%;	
 margin-left: 25px;
 margin-right: 10px;
-/* border-right: 3px solid #ffffff; */
+font-family: 'Poppins-Regular', poppins;
 }
 .left-1{
     float: left;
@@ -249,6 +266,7 @@ margin-right: 10px;
  padding-left:15px;
  padding-right: 10px;
  border-left: 3px solid #ffffff;
+ font-family: 'Poppins-Regular', poppins;
  /* border-bottom: 2px solid #ffffff; */
 }
 
@@ -326,14 +344,19 @@ margin-right: 10px;
  box-shadow: 1px 0 5px #e0f5f2;
  color: #ebf6f6;
  text-align: center;
- /* letter-spacing:-0.1px; */
+ letter-spacing:-1px;
+  line-height: 20px;
+font-family:'Poppins-Light',poppins;
+
 }
 
 .about-txt{
     color:#ffffff;
-    text-shadow:1px 0px 5px rgb(24, 124, 91); 
-    text-align: center;
+    /* text-shadow:1px 0px 5px rgb(24, 124, 91);  */
+text-align: center;
+padding-top: 5px;
   margin: 1px 0px;
+  font-size: 20px;
 }
 
 
