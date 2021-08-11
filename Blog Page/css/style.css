@@ -293,9 +293,6 @@ font-family: 'Poppins-Regular', poppins;
 	padding-left: 2px;
 	background-color:transparent;
      margin-top:20px;
- /* border:2px solid #508C83; */
- /* box-shadow: 1px 0 5px #e0f5f2; */
- /* border-bottom: 2px solid #ffffff; */
  color: #ebf6f6;
 }
 
@@ -312,6 +309,10 @@ font-family: 'Poppins-Regular', poppins;
 	border: 2px solid #538F85;
 	transition: .3s;
     cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color:#ffffff;
 }
 .btn:hover {
 	transition: .3s; 
