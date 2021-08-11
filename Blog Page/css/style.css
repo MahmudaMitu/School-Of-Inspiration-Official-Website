@@ -168,7 +168,7 @@ header h2{
 .type span{
     color:#43cfb6;
     font-size: 14px;
-    font-weight: 600;
+    /* font-weight: 500; */
     padding-bottom: 5px;
 }
 .head{
@@ -190,16 +190,72 @@ h2{
 	color:#6cbdae;
 margin:1.5 0px;	
 }
+h3{
+    color:#6cbdae;
+margin:0px 0px;
+
+}
+
+.search{
+    position: relative;
+    margin-top: 20px;
+    /* margin-left: px; */
+}
+.search input{
+    width: 180px;
+    height: 40px;
+    background: transparent;
+    border:2px solid #508C83;
+    box-shadow: 1px 0 5px #e0f5f2;
+    color: #ffffff;
+}
+.search .fas {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    font-size: 18px;
+    color: lightgrey;
+}
+.search .fas:hover{
+    color: #85C6AD;
+
+}
 
 .left-column{
 float: left;
-width: 75%;	
+width: 73%;	
+margin-left: 25px;
+margin-right: 10px;
+/* border-right: 3px solid #ffffff; */
+}
+.left-1{
+    float: left;
+    width: 50%;
+    /* padding-left: 5px; */
+    padding-right: 10px;
+}
+
+.left-2{
+    width: 50%;
+    float: right;
+    padding-left:10px;
+    /* padding-right: 5px; */
+    
 }
 
 .right-column{
- width: 25%;
+ width: 22%;
  float: right;
- padding-left:20px;
+ padding-left:15px;
+ padding-right: 10px;
+ border-left: 3px solid #ffffff;
+ /* border-bottom: 2px solid #ffffff; */
+}
+
+.right-column .card a  {
+    text-decoration: none;
+    /* font-size: 20px; */
+    color:antiquewhite
 }
 .gap img{
 	width:100%;
@@ -207,12 +263,21 @@ width: 75%;
     padding-top: 10px;
 	
 }
-.card{
-	padding: 20px;
+.left-column .card{
+	padding:10px;
 	background-color:transparent;
- margin-top:20px;
+     margin-top:20px;
  border:2px solid #508C83;
  box-shadow: 1px 0 5px #e0f5f2;
+ color: #ebf6f6;
+}
+.right-column .card{
+	padding-left: 2px;
+	background-color:transparent;
+     margin-top:20px;
+ /* border:2px solid #508C83; */
+ /* box-shadow: 1px 0 5px #e0f5f2; */
+ /* border-bottom: 2px solid #ffffff; */
  color: #ebf6f6;
 }
 
@@ -246,18 +311,29 @@ width: 75%;
     }
 }
 
-.right-column .card img{
-	margin-bottom: 10px;
+.right-column .card  img{
+	margin-bottom: 3px;
+    margin-top: 15px;
 }
-.about {
-	padding-top: 10px;
-	
+.abt{
+    margin-top: 30px;
 }
+.abt .card{
+    padding: 10px;
+	background-color:transparent;
+     margin-top:20px;
+ border:2px solid #508C83;
+ box-shadow: 1px 0 5px #e0f5f2;
+ color: #ebf6f6;
+ text-align: center;
+ /* letter-spacing:-0.1px; */
+}
+
 .about-txt{
     color:#ffffff;
     text-shadow:1px 0px 5px rgb(24, 124, 91); 
     text-align: center;
-  
+  margin: 1px 0px;
 }
 
 
@@ -344,7 +420,7 @@ width: 75%;
 /*responsive */
 
 @media(max-width:800px){
-	.left-column,.right-column {
+	.left-1,.left-2,.right-column {
     width: 100%;
     padding: 0px;
 	}
