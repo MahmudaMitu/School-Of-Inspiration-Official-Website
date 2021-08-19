@@ -347,7 +347,7 @@ font-family: 'Poppins-Regular', poppins;
 /* footer styling */
 .footerSection{
     background-image: url(../img/footer-bg.png);
-    padding-top: 30px;
+    padding-top: 50px;
     margin-top: 20px;
 }
 
