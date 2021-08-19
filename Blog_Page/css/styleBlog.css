@@ -174,7 +174,7 @@ nav .icon-burger .line {
 
 /* header */
 .headerSection{
-    background-image: url(../img/H_Blog.gif) ;
+    background-image: url(../img/H_Blog1.gif) ;
     font-family: 'Poppins-SemiBold', poppins;
     min-height: 500px;
     margin-bottom: 20px;
@@ -195,7 +195,7 @@ h2{
 }
 h3{
     color:#690569;
-/* margin:0px 0px; */
+
 font-weight: 600;
 }
 h4{
@@ -234,6 +234,9 @@ h5{
     color: #9643f5;
 
 }
+.card img{
+	width: 100%;
+}
 
 .left-column{
 float: left;
@@ -244,7 +247,7 @@ font-family: 'Poppins-Regular', poppins;
 }
 .left-column .card{
 	padding:10px;
-	background-color:transparent;
+	background-color:#ffffff;
     border:2px solid #9643f5;;
     box-shadow: 1px 0 5px #46066b;
     color:#2c0344;
@@ -290,9 +293,41 @@ font-family: 'Poppins-Regular', poppins;
     border: transparent;
 }
 
-.card img{
-	width: 100%;
+
+
+.right-column .card  img{
+	margin-bottom: 3px;
+    margin-top: 15px;
+  
 }
+/* about us */
+.abt{
+    margin-top: 30px;
+}
+.abt .card{
+    padding: 10px;
+	background-color:#fffffffa;
+    margin-top:20px;
+    border:2px solid #9643f5;
+    box-shadow: 2px 0px 5px #46066b;
+    text-align: center;
+    letter-spacing:-1px;
+    line-height: 20px;
+    font-family:'Poppins-Light',poppins;
+}
+.about {
+    padding-bottom: 10px;
+   
+}
+.about-txt{
+    color:#690569;
+    text-align: center;
+    padding-top: 5px;
+    margin: 1px 0px;
+    font-size: 25px;
+
+}
+/* button */
 
 .btn-brand{
     border:none;
@@ -308,33 +343,23 @@ font-family: 'Poppins-Regular', poppins;
     font-weight: bold;
 }
 
-.right-column .card  img{
-	margin-bottom: 3px;
-    margin-top: 15px;
-}
-.abt{
-    margin-top: 30px;
-}
-.abt .card{
-    padding: 10px;
-	background-color:transparent;
-    margin-top:20px;
-    border:2px solid #9643f5;
-    box-shadow: 1px 0 5px #46066b;
-    text-align: center;
-    letter-spacing:-1px;
-    line-height: 20px;
-    font-family:'Poppins-Light',poppins;
+
+/* footer styling */
+.footerSection{
+    background-image: url(../img/footer-bg.png);
+    padding-top: 30px;
+    margin-top: 20px;
 }
 
-.about-txt{
-    color:#690569;
-    text-align: center;
-    padding-top: 5px;
-    margin: 1px 0px;
-    font-size: 20px;
+.top-footer{
+    color: #fff;
+    padding: 70px 0;
+    font-family: 'Poppins-SemiBold', poppins;
 }
-
+.top-footer img{
+    margin: 0 auto;
+    display: block;
+}
 
 .social a {
 	padding: 12px;
@@ -353,18 +378,18 @@ font-family: 'Poppins-Regular', poppins;
 	
 }
 
-/* mitu apu */
-.txt{
-    width: 50%;
-    margin: 0 auto;
-    font-size: 17px;
-    color: #EDF3F8;
-    text-shadow: 0px 0px 4px white;
+.subfoot{
+    margin: 20px auto 0;
+    width: 50%;  
+    text-align: center;
+    font-size:15px;
+    color: rgb(206, 206, 206);
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Poppins-SemiBold', poppins;
+    
 }
 
-.current{
-    text-shadow: 0 0 5px #85C6AD;
-}
 
 
 
@@ -450,32 +475,3 @@ font-family: 'Poppins-Regular', poppins;
     
 } 
 
-/* footer styling */
-.footerSection{
-    background-image: url(../img/footer-bg.png);
-    padding-top: 30px;
-    margin-top: 20px;
-}
-
-.top-footer{
-    color: #fff;
-    padding: 70px 0;
-    font-family: 'Poppins-SemiBold', poppins;
-}
-.top-footer img{
-    margin: 0 auto;
-    display: block;
-}
-
-
-.subfoot{
-    margin: 20px auto 0;
-    width: 50%;  
-    text-align: center;
-    font-size:15px;
-    color: rgb(206, 206, 206);
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-family: 'Poppins-SemiBold', poppins;
-    
-}
