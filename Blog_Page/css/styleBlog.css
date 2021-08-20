@@ -338,7 +338,7 @@ font-family: 'Poppins-Regular', poppins;
 }
 .btn-brand:hover{
     border: 2px solid #6944DB;
-    background: none;
+    background: #ffffff;
     color:#7b47b6!important;
     font-weight: bold;
 }
