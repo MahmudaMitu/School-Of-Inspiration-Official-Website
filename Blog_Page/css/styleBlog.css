@@ -47,7 +47,7 @@ body{
 
 
 
-/*  Mitu apu    NavBar Styling        */
+/*     NavBar Styling        */
 nav{
     width: 100%;
     position: fixed;
@@ -168,7 +168,7 @@ nav .icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 
-/*  Mitu apu    NavBar Styling    --end--    */
+/*     NavBar Styling    --end--    */
 
 
 
@@ -180,7 +180,7 @@ nav .icon-burger .line {
     margin-bottom: 20px;
 }
 
-/* main section */
+/* main Blog section */
 
 .row:after{
 	content: '';
