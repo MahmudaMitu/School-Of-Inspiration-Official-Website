@@ -432,10 +432,6 @@ html, body{
 .img_texts{
   color: #292929;
 }
-
-  
-  
-  
   
   /*    Courses     */
  .course_overview{
@@ -542,6 +538,52 @@ html, body{
   
   
   
+
+  /*    Footer     */
+  .foot{
+    background-color: #373839;
+}
+.contactus{
+  font-family: "Open Sans", Sans-serif;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  word-spacing: .1rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.getintouch{
+  font-family: "Open Sans", Sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+.col1{
+  background-color: #373839;
+  color: #c2baba;
+  line-height: 1.4;
+  font-size: 15px;
+}
+.phone{
+  line-height: 2;
+}
+.phone a{
+  color: #c2baba;
+}
+.col2 a{
+  color: #e0d6d6;
+}
+.col2{
+  background-color: #373839;
+  color: #c2baba;
+  line-height: 1.4;
+  font-size: 15px;
+  margin: auto auto;
+  text-align: center;
+}
+
+
+
   /* responsive css */
   @media (max-width:1120px) {
     .text-area{
