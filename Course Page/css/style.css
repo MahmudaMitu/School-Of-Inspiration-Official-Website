@@ -246,7 +246,9 @@ nav .icon-burger .line {
     
 } */
 /* Mitu apu navbar end*/
-
+body{
+    
+}
 
 header{
     background: #461f72;
@@ -307,24 +309,10 @@ header{
     padding-left: 0;
 }
 .banner{
-  /* background: 
-   url("../video/grow.mp4");
-   background-position:top;
-   background-repeat:no-repeat;
-   background-size: cover;
-   height:650px;
-   align-items: center; */
-   position: relative;
+ position: relative;
 
 }
-video{
-    position:sticky;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    height: 650px;
-    object-fit: cover;
-}
+
 .banner h3{
   margin-top: 15rem;
   color: #1e0b33;
@@ -344,7 +332,7 @@ video{
    position: absolute;
    height: 25px;
    width: 3px;
-   background: #461f72;
+   background: #fed136;
    top: 3px;
    left: -1px;
 }
@@ -360,8 +348,8 @@ video{
    
 }
 .catagories ul li:hover{
-    text-shadow: 0 0 1.5px #7c57a7;
-    color: #5c2a94;
+    text-shadow: 0 0 1.5px #fdda5d;
+    color: #fed136;
 }
 .search{
     position: relative;
@@ -372,7 +360,7 @@ video{
     width: 277px;
     height: 37px;
     background: transparent;
-    border: 2px solid #5c2a94;
+    border: 2px solid #fed136;
 }
 .search .fas {
     position: absolute;
@@ -383,21 +371,21 @@ video{
 }
 .btn-brand{
     border:none;
-    background-color: #461f72;
+    background-color: #fed136;
     color: #fff!important;
     padding: 7px 15px!important;
     border-radius: 2px;
     transition: 0.4s ease-in-out;
 }
 .btn-brand:hover{
-    border: 2px solid #461f72;
+    border: 2px solid #fed136;
     background: none;
-    color:#461f72!important;
+    color:#fed136!important;
     transform: scale(1.08);
 }
 .card {
    background: transparent;
-    border: 2px solid #461f72;
+    border: 2px solid #fed136;
     box-shadow: 0 0 22px rgb(115 110 185 / 50%);
 }
 .img-box img{
@@ -416,24 +404,50 @@ video{
     margin-bottom: 1rem;
 }
 /* Courser overview */
-.gallery-section .col-md-4{
-  padding: 0;
+.course_overview{
+    text-align: center;
 }
-
-.no-padding{
-    padding: 0; 
+.course_overview h2{
+  font-size: 45px;
+  font-weight: 800;
+}
+.gallery-section{
+  margin: 0 auto ;
 }
 
 .img-gallery{
     position: relative;
     width: 340px;
     height: 330px;
-    margin: 18px auto;
-
+    margin: 16px auto;
+    padding: 0 20px;
+    transition: 0.4s ease-in-out;
 }
 .img-gallery img{
    width: 100%;
    height: 100%;
+   transition: 0.4s ease-in-out;
+}
+.hover_content{
+    position: absolute;
+    top: 15px;
+    left: 33px;
+    width: 275px;
+    height: 300px;
+    text-align: center;
+    background: #fad551;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.hover_content a{
+    text-decoration: none;
+    margin: 125px auto;
+    font-size: 25px;
+    display: block;
+    color: #fff;
+}
+.img-gallery:hover .hover_content{
+    opacity: 1;
 }
 
 
