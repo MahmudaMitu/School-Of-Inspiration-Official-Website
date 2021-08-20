@@ -43,7 +43,7 @@ html, body{
   
   /*  Header/Banner   */
   header{
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/bulb3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/bulb3.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
