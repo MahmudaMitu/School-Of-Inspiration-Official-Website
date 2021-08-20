@@ -505,6 +505,120 @@ html, body{
 .blog{
     height: 100vh;
     text-align: center;
+  height: 100vh;
+  text-align: center;
+  
+}
+.head{
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  
+}
+.title{
+  padding-top: 20px;
+  text-align: center;
+  color:#ffffff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.blog .carousel .card{
+  background: rgb(255, 255, 255);
+  border:2px solid #fed136;
+  box-shadow: 1px 0 5px #fac61b;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.blog .carousel .card:hover{
+  background: #fed136;
+  color:#ffffff;
+  border:2px solid #ffffff;
+}
+.blog .carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.blog .carousel .card:hover .box{
+  transform: scale(1.05);
+}
+.blog .carousel .card .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0 7px 0;
+}
+.blog .carousel .card p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.blog .carousel .card img{
+  height: 150px;
+  width: 150px;
+  /* object-fit: cover; */
+  /* border-radius: 50%; */
+  border: 5px solid #fed136;
+  transition: all 0.3s ease;
+}
+.blog .carousel .card:hover img{
+  border-color: #000;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot{
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none!important;
+  border-radius: 50%;
+  border: 2px solid #fed136!important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active{
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #fed136!important;
+}
+.btn-brand{
+  border:none;
+  background-color: #fed136;
+  color: #fff!important;
+  padding: 7px 15px!important;
+  border-radius: 2px;
+}
+.btn-brand:hover{
+  border: 2px solid #fed136;
+  background: #ffffff;
+  color:#fbe51b!important;
+  font-weight: bold;
+}
+.btn-all
+{
+    border: 2px solid #fed136;
+    background:none;
+    color: #fed136!important;
+    font-weight: bold;
+    /* margin-left: 420px; */
+    margin-top: 25px;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+.btn-all:hover{
+    border:none;
+    background-color: #fed136;
+    color: #fff!important;
+    /* padding: 7px 15px!important;
+    border-radius: 2px; */
 }
   /*    Footer     */
 .foot{
