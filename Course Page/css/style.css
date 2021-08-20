@@ -5,249 +5,8 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-
-
-/* Mitu apu navbar */
- /* .common{
-   height: 100%;
-    margin: -46px auto;
-    display: flex;
-    flex-direction: row;
-    background: transparent;
-}
-
-
-nav{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: #2E075A;
-    padding: 60px 0px;
-    transition: 0.4s;
-    z-index: 10;
-}
-
-#nav-toggle {
-	position: absolute;
-	top: -100px;
-}
-
-nav .logo{
-    font-family: signika;
-    font-weight: bold;
-    font-size: 27px;
-    width: 30%;
-    text-shadow: 0 0 3px whitesmoke;
-    background: transparent;
-    cursor: pointer;
-    color: #fff;
-}
-nav .logo:hover{
-    text-shadow: 0 0 20px #85C6AD;
-}
-
-nav .links{
-    font-family: 'Archiva', sans-serif;
-    display: flex;
-    position: relative;
-	justify-content: space-around;
-	align-items:center;
-    width: 44%;
-    background: transparent;
-    position: relative;
-    margin-left: 101px;
-}
-nav .links::before {    
-    content: "";
-    background: #198fa1;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-    border-radius: 35px;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    background: transparent;
-    position: relative; 
-    transition: 0.35s all ease;  
-    
-}
-nav a{
-    background: transparent;
-    text-decoration: none;
-    font-size: 15px;
-    position: relative;
-    transition: color .4s ease-out;
-    color: #fff;
-}  
-nav a:hover {
-    color: #85C6AD;
-    right: 0;
-    text-decoration: none;
-    padding-bottom: 4px;
-    text-shadow: 0 0 1.5px #85C6AD;
-} 
-nav a:hover:after {
-    border-color: #85C6AD;
-    right: 0;
-    padding-bottom: 4px;
-}  
-nav a:after {
-    border-top: .1em solid #85C6AD;
-    content: "";
-    position: absolute;
-    right: 100%;
-    bottom: -.4em;
-    left: 0;
-    transition: right .4s cubic-bezier(0,.5,0,1),
-                border-color .4s ease-out;
-}
-nav a:hover:after {
-    right: 0;
-}
-.fa-search:hover{
-    text-shadow: 0 0 1.5px #85C6AD;
-    color: #85C6AD;
-}
-.current{
-    text-shadow: 0 0 5px #85C6AD;
-}
-nav .icon-burger {
-	display: none;
-	position: absolute;
-	right: 5%;
-	top: 50%;
-	transform: translateY(-50%);
-}
-nav .icon-burger .line {
-	width: 30px;
-	height: 5px;
-	background-color: #fff;
-	margin: 5px;
-	border-radius: 3px;
-	transition: all .3s ease-in-out;
-}
-
-@media screen and (max-width: 1000px) {
-    nav .logo{
-        margin-left: 00px;
-    }
-    nav .links{
-        margin-top: 20px;
-    }
-    .c1{
-        width: 100%;
-        height: 50px;
-    }
-    .footer{
-        display: none;
-    }
-    
-    
-} */
-/* @media screen and (max-width: 768px) {
-    .bg1{
-        width: 100%;
-        height: 100%;     
-    }
-    #navbar{
-        padding: 25px 10px;
-        transition: 0.4s;
-    }
-	nav .logo {
-        margin-left: 0px;
-		float: none;
-		width: auto;
-		justify-content: center;
-	}
-	nav .links {
-		float: none;
-		position: fixed;
-		z-index: 99;
-		left: 0;
-		right: 0;
-		top: 75px;
-		bottom: 100%;
-		width: auto;
-		height: auto;
-		flex-direction: column;
-		justify-content: space-evenly;
-        background-color: #161e29;
-		overflow: hidden;
-		box-sizing: border-box;
-		transition: all .5s ease-in-out;
-        opacity: 1;
-	}
-    nav .links::before {   
-        border-radius: 0;
-        background-color: #161e29;
-        position: relative;
-        opacity: 0;
-    }
-	nav .links a {
-		font-size: 17px;
-	}
-	nav :checked ~ .links {
-		bottom: 0;
-	}
-	nav .icon-burger {
-		display: block;
-	}
-	nav :checked ~ .icon-burger .line:nth-child(1) {
-		transform: translateY(10px) rotate(225deg);
-	}
-	nav :checked ~ .icon-burger .line:nth-child(3) {
-		transform: translateY(-10px) rotate(-225deg);
-	}
-	nav :checked ~ .icon-burger .line:nth-child(2) {
-		opacity: 0;
-	}  */
-    /* .shapes{
-        display: none;
-    }
-    .left{
-        width: 10%;
-    }
-    .left .resize{
-        font-size: 25px;
-    }
-    .right{
-        width: 10%;
-    }
-    .right img{
-        width: 90%;
-        height: 90%;
-    }
-    .c1{
-        width: 100%;
-        height: 50px;
-    }
-    .content1{
-        font-size: 15px;
-    }
-    .content1 .con_resize{
-        font-size: 25px;
-    }
-    .txt{
-        font-size: 12px;
-    }
-    .subsec1{
-        display: none;
-    }
-    .banner .icon{
-        display: none;
-    }
-    
-} */
-/* Mitu apu navbar end*/
 body{
-    
+    background: #EEEBE9;
 }
 
 header{
@@ -332,7 +91,7 @@ header{
    position: absolute;
    height: 25px;
    width: 3px;
-   background: #fed136;
+   background: #fccf2e;
    top: 3px;
    left: -1px;
 }
@@ -349,7 +108,7 @@ header{
 }
 .catagories ul li:hover{
     text-shadow: 0 0 1.5px #fdda5d;
-    color: #fed136;
+    color: #fccf2e;
 }
 .search{
     position: relative;
@@ -360,7 +119,7 @@ header{
     width: 277px;
     height: 37px;
     background: transparent;
-    border: 2px solid #fed136;
+    border: 2px solid rgb(30,30,30);
 }
 .search .fas {
     position: absolute;
@@ -385,7 +144,7 @@ header{
 }
 .card {
    background: transparent;
-    border: 2px solid #fed136;
+    border: 2px solid rgb(30,30,30);
     box-shadow: 0 0 22px rgb(115 110 185 / 50%);
 }
 .img-box img{
