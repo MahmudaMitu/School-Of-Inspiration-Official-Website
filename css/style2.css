@@ -325,11 +325,99 @@ html, body{
   
   
   /*    Courses     */
-.courses{
-    height: 100vh;
+ .course_overview{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+.course_overview h2{
+  font-size: 45px;
+  font-weight: 800;
 }
-  
+
+
+.course_overview h6 {
+  color:rgba(30,30,30,1);
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+    margin: 0 auto 35px;
+}
+.course_overview h6:before,
+.course_overview h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgba(30,30,30,1);
+  margin: auto;
+}
+
+/* .banner-text p{
+  font-size: 28px;
+  font-family: poppins;
+  color: #FFFFFF;
+  font-weight: bold;
+  word-spacing: .7rem;
+}
+.banner-text p span{
+  letter-spacing: .5rem;
+} */
+
+.course_overview .fa-star{
+  color: rgb(61, 61, 61);
+  padding: 0px 10px;
+  text-shadow: .5px .5px 1.5px #c2c2c2;
+}
+@keyframes spinning {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+.spin {
+  animation-name: spinning;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
+}
+
+
+.gallery-section{
+  margin: 0 auto ;
+}
+
+.img-gallery{
+    position: relative;
+    width: 340px;
+    height: 330px;
+    margin: 10px auto;
+    transition: 0.4s ease-in-out;
+}
+.img-gallery img{
+   width: 100%;
+   height: 100%;
+   transition: 0.4s ease-in-out;
+}
+.hover_content{
+    position: absolute;
+    top: 15px;
+    left: 33px;
+    width: 275px;
+    height: 300px;
+    text-align: center;
+    background: rgba(30,30,30,0.8);
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.hover_content a{
+    text-decoration: none;
+    margin: 125px auto;
+    font-size: 25px;
+    display: block;
+    color: #fff;
+}
+.img-gallery:hover .hover_content{
+    opacity: 1;
+}
 /*    Blog     */  
 .blog{
     height: 100vh;
