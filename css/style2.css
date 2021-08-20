@@ -289,43 +289,71 @@ html, body{
   
   
   /*    NavBar   */
-  
-  .about{
-    height: 100vh;
-  }
-  .about .abt{
-    text-align: center; 
-    padding-top: 25px;
-    background: rgba(41, 41, 41,0.9);
-  
-  }
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-   } 
-   
-  .sticky a{
-    text-decoration: none;
-    color: white;
-    font-family: poppins;
-    font-weight: 800;
-    font-size: 15px;
-  }
-  .sticky a:hover{
-    text-shadow: 0 0 5px #fff;
-  }
-  .current{
-    text-shadow: 0 0 5px #fff;
-  }
-  
-  
+.nav_bar .abt{
+  text-align: center; 
+  background: white;
+  z-index: 9999;
+  padding-bottom: 4px;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+ } 
+.sticky a{
+  text-decoration: none;
+  color: #141E30;
+  font-family: poppins;
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+.sticky a:hover{
+  text-shadow: 0 0 1px #141E30;
+}
+/*
+.current{
+  text-shadow: 0 0 5px #fff;
+}*/
+.sticky a{
+  background: transparent;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  transition: color .4s ease-out;
+}  
+.sticky a:hover {
+  color: #141E30;
+  right: 0;
+  text-decoration: none;
+  padding-bottom: 25px;
+  text-shadow: 0 0 .5px #141E30;
+} 
+.sticky a:hover:after {
+  border-color: #141E30;;
+  right: 0;
+  padding-bottom: 4px;
+}  
+.sticky a:after {
+  border-top: .1em solid #141E30;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: -.4em;
+  left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1),
+              border-color .4s ease-out;
+}
+.sticky a:hover:after {
+  right: 0;
+}
   
   
   
   
   /*    Courses     */
  .course_overview{
+    position: relative;
+    z-index: 999;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin-top: 60px;
