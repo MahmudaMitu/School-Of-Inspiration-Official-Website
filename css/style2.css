@@ -346,6 +346,93 @@ html, body{
 .sticky a:hover:after {
   right: 0;
 }
+
+/*   About   */
+.about{
+  background:#EFEFEF;
+  position: relative;
+  z-index: 0;
+}
+.who_we_are{
+  font-family: "Open Sans", Sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 1;
+    color: #292929;
+    border-right: 3px solid red;
+    border-radius: 2px;
+}
+.who{
+  color: #EA2A35;
+}
+.texts{
+  margin: auto auto;
+  color: #292929;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  text-align: justify;
+}
+.second_row{
+  padding-top: 50px;
+  text-align: center;
+}
+.what_we_do{
+  font-family: poppins;
+  color: #292929;
+  font-size: 22px;
+  line-height: 4;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  word-spacing: .5rem;
+  font-weight:bold;
+
+}
+.fa-child{
+  padding: 0px 10px;
+}
+.second_row .separator {
+  color: #14b8c0;
+  display: flex;
+  flex-direction: row;
+
+}
+.second_row .separator:before, .separator:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: .1px solid #292929;
+  margin: auto;
+  opacity: .5;
+}
+
+.third_row span{
+  margin: auto auto;
+  color: #292929;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  font-style: italic;
+  opacity: .8;
+}
+.fourth_row{
+  margin: auto auto;
+  padding-top: 60px;
+  text-align: center;
+
+}
+.image{
+   opacity: .7;
+   padding: 0px 0px;
+   border-radius: 50px;
+ }
+
+.img_texts{
+  color: #292929;
+}
+
   
   
   
