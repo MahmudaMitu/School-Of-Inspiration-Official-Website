@@ -324,11 +324,18 @@ html, body{
   
   
   
+  /*    Courses     */
+.courses{
+    height: 100vh;
+    text-align: center;
+}
   
-  
-  
-  
-  
+/*    Blog     */  
+.blog{
+    height: 100vh;
+    text-align: center;
+
+}
   
   
   
