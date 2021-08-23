@@ -1,9 +1,11 @@
+
+
 window.onscroll = function() {scrollFunction()};
         
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "15px 10px";
-    document.getElementById("navbar").style.backgroundColor = "#2E075A";
+    document.getElementById("navbar").style.backgroundColor = "#EA2A35";
     document.getElementById("navbar").style.marginTop = "-5px";
     document.getElementById("logo").style.fontSize = "20px";     
     document.getElementById("navbar").style.boxShadow = "0 0 5px 5px #fff";      
