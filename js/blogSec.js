@@ -1,15 +1,16 @@
 $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: ["Read Our Blogs....", "About Latest News....", "A Lots More...."],
-    typeSpeed: 100,
-    backSpeed: 60,
+    typeSpeed: 150,
+    backSpeed: 80,
     loop: true
   });
   // owl carousel script
   $('.carousel').owlCarousel({
     margin: 20,
     loop: true,
-    autoplayTimeOut: 2000,
+    autoplay:true,
+    autoplayTimeOut: 10,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -26,5 +27,6 @@ $(document).ready(function () {
       }
     }
   });
+
 
 });
