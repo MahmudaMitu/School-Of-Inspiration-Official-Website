@@ -501,8 +501,8 @@ html, body{
 .img-gallery:hover .hover_content{
     opacity: 1;
 }
-/*    Blog     */  
 
+/*    Blog     */  
 
 .blog{
     height: 100vh;
@@ -567,7 +567,7 @@ html, body{
   /* object-fit: cover; */
   /* border-radius: 50%; */
   border: 3px solid #000000;
-
+  box-shadow: 1px 0 3px rgb(233, 148, 148);
   transition: all 0.3s ease;
 }
 .blog .carousel .card:hover img{
@@ -622,8 +622,9 @@ html, body{
     border:none;
     background-color: #fa0202;
     color: #fff!important;
-    /* padding: 7px 15px!important;
-    border-radius: 2px; */
+    box-shadow: 1px 0 5px rgb(246, 175, 175);
+    /* padding: 7px 15px!important; */
+   
 }
   /*    Footer     */
 .foot{
