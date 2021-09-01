@@ -449,7 +449,7 @@ html, body{
   letter-spacing: .5rem;
 } */
 
-.course_overview .fa-star{
+.courses .fa-star{
   color: rgb(61, 61, 61);
   padding: 0px 10px;
   text-shadow: .5px .5px 1.5px #c2c2c2;
@@ -465,7 +465,18 @@ html, body{
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
 }
-.gallery-section{
+
+.img-slide{
+  width: 600px;
+  height: 450px;
+  margin: 0 auto;
+}
+.img-slide img{
+  width: 100%;
+  height: 100%;
+ 
+}
+/* .gallery-section{
   margin: 0 auto ;
 }
 .img-gallery{
@@ -500,7 +511,7 @@ html, body{
 }
 .img-gallery:hover .hover_content{
     opacity: 1;
-}
+} */
 /*    Blog     */  
 
 
