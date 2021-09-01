@@ -526,8 +526,15 @@ html, body{
   width: 140px;
   height: 60px;
   border:none;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
 }
-
+.all-courses:hover{
+ border: 3px solid #dd0909;
+ color: #dd0909;
+ font-weight: 600;
+ background-color: transparent;
+}
 /* .gallery-section{
   margin: 0 auto ;
 }
