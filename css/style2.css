@@ -465,17 +465,69 @@ html, body{
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
 }
-
+.courses h2{
+  font-weight: 900;
+  font-size: 39px;
+  margin: 60px 0 5px;
+}
+.courses h6 {
+  color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto 25px;
+    width: 40%;
+}
+.courses h6:before, 
+   h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgb(61, 61, 61);
+  margin: auto;
+}
 .img-slide{
+  position: relative;
   width: 600px;
   height: 450px;
   margin: 0 auto;
+  transition: 0.4s ease-in-out;
 }
 .img-slide img{
   width: 100%;
   height: 100%;
- 
+  transition: 0.4s ease-in-out;
 }
+
+.hover_content{
+  position: absolute;
+  top: 23px;
+  left: 26px;
+  width: 550px;
+  height: 404px;
+  text-align: center;
+  background: rgba(30,30,30,0.8);
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.hover_content a{
+  text-decoration: none;
+  margin: 185px auto;
+  font-size: 25px;
+  display: block;
+  color: #fff;
+}
+.img-slide:hover .hover_content{
+  opacity: 1;
+}
+
+.all-courses{
+  background-color:rgb(61, 61, 61) ;
+  color: #fff;
+  margin: 30px auto;
+  width: 140px;
+  height: 60px;
+  border:none;
+}
+
 /* .gallery-section{
   margin: 0 auto ;
 }
@@ -511,30 +563,8 @@ html, body{
 }
 .img-gallery:hover .hover_content{
     opacity: 1;
-<<<<<<< HEAD
 } */
 /*    Blog     */  
-=======
-}
-/* Training */
-.training{
-  height: 100vh;
-  text-align: center;
-  color: #ffffff;
-}
-/* Workshop */
-.workshop{
-  height: 100vh;
-  text-align: center;
-
-}
-/* Webiner */
-.webiner{
-  height: 100vh;
-  text-align: center;
-  color: #ffffff;
-}
->>>>>>> 4878f43580c96d74d6435cc661b8541cf6606d1e
 
 /*    Blog     */  
 
