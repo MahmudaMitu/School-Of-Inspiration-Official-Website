@@ -6,7 +6,7 @@ $(document).ready(function () {
     loop: true
   });
   // owl carousel script
-  $('.carousel').owlCarousel({
+  $('#blogSec').owlCarousel({
     margin: 20,
     loop: true,
     autoplay:true,
