@@ -595,9 +595,9 @@ button div {
 
 /* Training */
 .training {
-  height: 100vh;
+  height: 105vh;
   text-align: center;
-  color: #ffffff;
+  
 }
 .training .title {
   padding-top: 20px;
@@ -610,8 +610,8 @@ button div {
   color:#EDEAE8;
   display: flex;
   flex-direction: row;
-  width: 33%;
-  margin: 0 auto 20px;
+  margin: 15px auto 25px;
+  width: 40%
 }
 .training h6:before,
 .training h6:after {
@@ -627,7 +627,8 @@ button div {
 
 }
 .training-slider .item .img-slide {
-  width: 600px;
+  /* width: 600px; */
+  width: 100%;
   height: 420px;
   margin: 0 auto;
 }
@@ -635,6 +636,24 @@ button div {
   width: 100%;
   height: 100%;
    
+}
+.training-slider .item .img-slide .overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.training-slider .item .img-slide:hover .overlay {
+  opacity: 1;
 }
 .btn-t
 {
@@ -655,7 +674,7 @@ button div {
 }
 /* Workshop */
 .workshop {
-  height: 100vh;
+  height: 105vh;
   text-align: center;
 }
 .workshop .title{
@@ -666,7 +685,7 @@ button div {
   font-weight: 600;
 }
 .workshop h6 {
-  color: #4BBACF;
+    color: #4BBACF;
     display: flex;
     flex-direction: row;
     margin: 15px auto 25px;
@@ -686,13 +705,29 @@ button div {
   margin: 0 auto;
 }
 .workshop-slider .item .img-slide {
-  width: 600px;
+  /* width: 600px; */
+  width: 100%;
   height: 420px;
   margin: 0 auto;
 }
 .img-slide img {
   width: 100%;
   height: 100%;
+}
+.workshop-slider .item .img-slide .overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(3, 22, 83, 0.5);
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.workshop-slider .item .img-slide:hover .overlay {
+  opacity: 1;
 }
 .btn-ws
 {
@@ -713,7 +748,7 @@ button div {
 }
 /* Webiner */
 .webiner {
-  height: 100vh;
+  height: 105vh;
   text-align: center;
 }
 .webiner .title {
@@ -724,11 +759,11 @@ button div {
   font-weight: 600;
 }
 .webiner h6 {
-    color: #FDD035;
+  color: #FDD035;
   display: flex;
   flex-direction: row;
-  width: 33%;
-  margin: 0 auto 20px;
+  margin: 15px auto 25px;
+  width: 40%;
 }
 .webiner h6:before,
 .webiner h6:after {
@@ -745,13 +780,30 @@ button div {
 }
 
 .webiner-slider .item .img-slide {
-  width: 600px;
+  /* width: 600px; */
   height: 420px;
+  width: 100%;
   margin: 0 auto;
 }
 .img-slide img {
   width: 100%;
   height: 100%;
+}
+.webiner-slider .item .img-slide .overlay {
+  position: absolute; 
+  bottom: 0; 
+  /* background: rgb(0, 0, 0); */
+  background: rgba(63, 0, 0, 0.5); 
+  color: #fff3f3; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.webiner-slider .item .img-slide:hover .overlay {
+  opacity: 1;
 }
 .btn-web {
   border: none;

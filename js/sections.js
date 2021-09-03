@@ -9,7 +9,7 @@ $(document).ready(function () {
   $('#blogSec').owlCarousel({
     margin: 20,
     loop: true,
-    autoplay:true,
+    autoplay: true,
     autoplayTimeOut: 10,
     autoplayHoverPause: true,
     responsive: {
@@ -27,67 +27,69 @@ $(document).ready(function () {
       }
     }
   });
- 
+
   $('.workshop-slider').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: false,
-      dots:false,
-autoplay:true,
-            autoplaySpeed:3000,
-      responsive: {
-          0: {
-              items: 1,
-             
-          },
-         
-          600: {
-              items: 1,
-              
-          },
-          1000: {
-              items: 1,
-              
-          }
-      }
-  })
-  $('.webiner-slider').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
-    dots:false,
-    autoplay:true,
-    autoplaySpeed:3000,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
-        }
-    }
-})
-$('.training-slider').owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: false,
-  dots:false,
-  autoplay:true,
-  autoplaySpeed:3000,
-  responsive: {
       0: {
-          items: 1
+        items: 1
+
       },
+
       600: {
-          items: 1
+        items: 1
+
       },
       1000: {
-          items: 1
+        items: 1
+
       }
-  }
-})
+    }
+  })
+  $('.webiner-slider').owlCarousel({
+    rtl:true,
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 1
+      }
+    }
+  })
+  $('.training-slider').owlCarousel({
+    rtl:true,
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 1
+      }
+    }
+  })
 
 });
