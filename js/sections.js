@@ -40,6 +40,7 @@ autoplay:true,
               items: 1,
              
           },
+         
           600: {
               items: 1,
               
