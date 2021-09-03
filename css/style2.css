@@ -627,6 +627,7 @@ button div {
 
 }
 .training-slider .item .img-slide {
+  width: 600px;
   height: 420px;
   margin: 0 auto;
 }
@@ -634,6 +635,23 @@ button div {
   width: 100%;
   height: 100%;
    
+}
+.btn-t
+{
+  border: 2px solid #fffafa;
+  background: none;
+  color: #fbfafa !important;
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 20px;
+  padding-bottom: 32px;
+}
+
+.btn-t:hover{
+  border: none;
+  background-color: #ffffff;
+  color: #000 !important;
+  box-shadow: 1px 0 5px rgb(246, 175, 175);
 }
 /* Workshop */
 .workshop {
@@ -643,12 +661,12 @@ button div {
 .workshop .title{
   padding-top: 20px;
   text-align: center;
-  color: #ffc800;
+  color: #4BBACF;
   font-size: 50px;
   font-weight: 600;
 }
 .workshop h6 {
-    color: #ffc800;
+  color: #4BBACF;
     display: flex;
     flex-direction: row;
     margin: 15px auto 25px;
@@ -658,13 +676,18 @@ button div {
 .workshop h6:after {
   content: "";
   flex: 1 1;
-  border-bottom: 2px solid #ffc800;
+  border-bottom: 2px solid #4BBACF;
   margin: auto;
 }
 .workshop .fa-star{
-  color: #ffc800;
+  color: #14B8C0;
   padding: 0px 10px;
   text-shadow: 0.5px 0.5px 1.5px #c2c2c2;
+  margin: 0 auto;
+}
+.workshop-slider .item .img-slide {
+  width: 600px;
+  height: 420px;
   margin: 0 auto;
 }
 .img-slide img {
@@ -673,9 +696,9 @@ button div {
 }
 .btn-ws
 {
-  border: 2px solid #ffc800;
+  border: 2px solid #14B8C0;
   background:none;
-  color: #050400!important;
+  color: #013641!important;
   font-weight: bold;
   /* margin-left: 420px; */
   margin-top: 5px;
@@ -683,10 +706,10 @@ button div {
   padding-bottom: 32px;
 }
 .btn-ws:hover{
-  border:2px solid #000;
-  background-color: #ffc800;
+  border:none;
+  background-color: #14B8C0;
   color: #fff!important;
-  box-shadow: 1px 0 5px rgb(246, 175, 175);
+  box-shadow: 1px 0 5px #037c94;
   /* padding: 7px 15px!important; */
 }
 /* Webiner */
@@ -697,12 +720,12 @@ button div {
 .webiner .title {
   padding-top: 20px;
   text-align: center;
-  color: #fff9f9;
+   color: #FDD035;
   font-size: 50px;
   font-weight: 600;
 }
 .webiner h6 {
-  color: rgb(255, 248, 248);
+    color: #FDD035;
   display: flex;
   flex-direction: row;
   width: 33%;
@@ -712,14 +735,14 @@ button div {
 .webiner h6:after {
   content: "";
   flex: 1 1;
-  border-bottom: 2px solid rgb(255, 244, 244);
+  border-bottom: 2px solid #FDD035;
   margin: auto;
 }
 
 .webiner .fa-star {
-  color: rgb(255, 253, 253);
+  color: #FDD035;
   padding: 0px 10px;
-  text-shadow: 0.5px 0.5px 1.5px #c2c2c2;
+  text-shadow: 0.5px 0.5px 1.5px #f1efe5;
 }
 
 .webiner-slider .item .img-slide {
@@ -732,21 +755,19 @@ button div {
   height: 100%;
 }
 .btn-web {
-  border: 2px solid #fffafa;
-  background: none;
-  color: #fbfafa !important;
+  border: none;
+  background-color: #FDD035;
+  color: #3b2c28 !important;
   font-weight: bold;
-  /* margin-left: 420px; */
   margin-top: 8px;
   font-size: 20px;
   padding-bottom: 32px;
 }
 .btn-web:hover {
-  border: none;
-  background-color: #ffffff;
-  color: #000 !important;
-  box-shadow: 1px 0 5px rgb(246, 175, 175);
-  /* padding: 7px 15px!important; */
+  border: 2px solid #FDD035;
+  background: none;
+  color: #fbfafa !important;
+  box-shadow: 1px 0 5px rgb(243, 177, 177);
 }
 
 /*    Blog     */
@@ -772,7 +793,7 @@ font-weight: 600;
 .blog .card {
   background: #3b3a3a;
   border: 2px solid #fffdf8;
-  box-shadow: 1px 0 5px rgb(253, 0, 0);
+  box-shadow: 3px 2px 5px rgb(216, 0, 0);
   border-radius: 6px;
   padding: 20px 30px;
   text-align: center;

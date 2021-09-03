@@ -80,7 +80,7 @@ body{
   .headline .fa-star{
     color:rgb(255, 240, 240);
     padding: 0px 10px;
-    /* text-shadow: .5px .5px 1.5px #c2c2c2; */
+    text-shadow: .5px .5px 1.5px #c2c2c2;
   }
   @keyframes spinning {
     from { transform: rotate(0deg) }
