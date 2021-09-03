@@ -602,12 +602,12 @@ button div {
 .training .title {
   padding-top: 20px;
   text-align: center;
-  color: #fff9f9;
+  color: #EDEAE8;
   font-size: 50px;
   font-weight: 600;
 }
 .training h6 {
-  color: rgb(255, 248, 248);
+  color:#EDEAE8;
   display: flex;
   flex-direction: row;
   width: 33%;
@@ -617,89 +617,75 @@ button div {
 .training h6:after {
   content: "";
   flex: 1 1;
-  border-bottom: 2px solid rgb(255, 244, 244);
+  border-bottom: 2px solid #EDEAE8;
   margin: auto;
 }
 
 .training .fa-star {
   color: rgb(255, 253, 253);
   padding: 0px 10px;
-  text-shadow: 0.5px 0.5px 1.5px #c2c2c2;
-}
 
+}
 .training-slider .item .img-slide {
-  width: 600px;
   height: 420px;
   margin: 0 auto;
 }
 .img-slide img {
   width: 100%;
   height: 100%;
-}
-.btn-t {
-  border: 2px solid #fffafa;
-  background: none;
-  color: #fbfafa !important;
-  font-weight: bold;
-  /* margin-left: 420px; */
-  margin-top: 8px;
-  font-size: 20px;
-  padding-bottom: 32px;
-}
-.btn-t:hover {
-  border: none;
-  background-color: #ffffff;
-  color: #000 !important;
-  box-shadow: 1px 0 5px rgb(246, 175, 175);
-  /* padding: 7px 15px!important; */
+   
 }
 /* Workshop */
 .workshop {
   height: 100vh;
   text-align: center;
 }
-.workshop h6 {
-  color: rgb(61, 61, 61);
-  display: flex;
-  flex-direction: row;
-  margin: 15px auto 25px;
-  width: 40%;
+.workshop .title{
+  padding-top: 20px;
+  text-align: center;
+  color: #ffc800;
+  font-size: 50px;
+  font-weight: 600;
 }
-.workshop h6:before,
+.workshop h6 {
+    color: #ffc800;
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto 25px;
+    width: 40%;
+}
+.workshop h6:before, 
 .workshop h6:after {
   content: "";
   flex: 1 1;
-  border-bottom: 2px solid rgb(61, 61, 61);
+  border-bottom: 2px solid #ffc800;
   margin: auto;
 }
-.workshop .fa-star {
-  color: rgb(61, 61, 61);
+.workshop .fa-star{
+  color: #ffc800;
   padding: 0px 10px;
   text-shadow: 0.5px 0.5px 1.5px #c2c2c2;
-}
-.img-slide {
-  width: 600px;
-  height: 450px;
   margin: 0 auto;
 }
 .img-slide img {
   width: 100%;
   height: 100%;
 }
-.btn-ws {
-  border: 2px solid #ee0505;
-  background: none;
-  color: #030303 !important;
+.btn-ws
+{
+  border: 2px solid #ffc800;
+  background:none;
+  color: #050400!important;
   font-weight: bold;
   /* margin-left: 420px; */
-  margin-top: 13px;
+  margin-top: 5px;
   font-size: 20px;
   padding-bottom: 32px;
 }
-.btn-ws:hover {
-  border: none;
-  background-color: #111111;
-  color: #fff !important;
+.btn-ws:hover{
+  border:2px solid #000;
+  background-color: #ffc800;
+  color: #fff!important;
   box-shadow: 1px 0 5px rgb(246, 175, 175);
   /* padding: 7px 15px!important; */
 }
@@ -769,11 +755,12 @@ button div {
   height: 100vh;
   text-align: center;
 }
-.head {
-  color: #332e2e;
-  font-size: 30px;
-  padding-bottom: 5px;
-  font-weight: 500;
+.head{
+color: #292929;
+font-size: 30px;
+padding-bottom: 5px;
+font-weight: 600;
+
 }
 .title {
   padding-top: 20px;
