@@ -700,7 +700,6 @@ button div {
   background:none;
   color: #013641!important;
   font-weight: bold;
-  /* margin-left: 420px; */
   margin-top: 5px;
   font-size: 20px;
   padding-bottom: 32px;
@@ -710,7 +709,7 @@ button div {
   background-color: #14B8C0;
   color: #fff!important;
   box-shadow: 1px 0 5px #037c94;
-  /* padding: 7px 15px!important; */
+ 
 }
 /* Webiner */
 .webiner {
