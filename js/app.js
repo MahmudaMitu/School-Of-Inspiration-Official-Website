@@ -1,4 +1,4 @@
-//    NavigationBar   //
+/*    NavigationBar   
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');
@@ -23,7 +23,7 @@ const navSlide = () => {
     });    
 } 
 navSlide();
-
+//
 /*
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -82,7 +82,7 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
-  */
+ 
 
 
   
@@ -177,3 +177,52 @@ function scrollFunction() {
     
   }
 }
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container ul li");
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+});
+
+
+
+
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', function() {
+  const offset = window.pageYOffset;
+  
+  if(offset > 75)
+    nav.classList.add('scroll')
+  else 
+    nav.classList.remove('scroll')
+});
