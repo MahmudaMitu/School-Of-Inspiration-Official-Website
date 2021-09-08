@@ -43,7 +43,6 @@ body {
 .styl {
   border: 1px solid red;
 }
-
 /*  Header/Banner   */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
@@ -283,7 +282,6 @@ button div {
   width: 35px;
   height: 2px;
 }
-
 /*    NavBar   */
 nav {
   position: sticky;
@@ -354,7 +352,6 @@ nav.scroll {
 nav.scroll li {
   color: #141e30;
 }
-
 /* Common Section Styling */
 section {
   align-items: center;
@@ -363,7 +360,6 @@ section {
 .sec {
   height: 10vh;
 }
-
 /*   About   */
 .about {
   background: #efefef;
@@ -446,7 +442,6 @@ section {
 .img_texts {
   color: #292929;
 }
-
 /* Courses  */
 .crs_bg {
   background-image: linear-gradient(
@@ -497,7 +492,6 @@ section {
 .item1 img {
   border-radius: 10px;
 }
-
 /*  Workshop  */
 .workshop {
   background: #efefef;
@@ -532,7 +526,6 @@ section {
   width: 97%;
   border-radius: 10px;
 }
-
 /*  Webinar  */
 .webinar {
   background-image: linear-gradient(
@@ -578,7 +571,6 @@ section {
   letter-spacing: 0.1rem;
   margin-left: 15px;
 }
-
 /*  Blog  */
 .blog {
   position: relative;
@@ -650,7 +642,6 @@ section {
   font-size: 20px;
   font-weight: 900;
 }
-
 /* Contact */
 .cntc {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
