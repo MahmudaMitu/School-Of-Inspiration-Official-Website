@@ -766,6 +766,9 @@ section {
   }
 }
 @media (max-width: 410px) {
+  .about .who_we_are {
+    font-size: 60px;
+  }
   .text-area {
     font-size: 25px;
     letter-spacing: 0;
