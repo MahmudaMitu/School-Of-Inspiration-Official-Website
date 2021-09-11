@@ -1,30 +1,19 @@
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container ul li");
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
 
-
-// window.onscroll = function() {scrollFunction()};
-        
-// function scrollFunction() {
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     document.getElementById("navbar").style.padding = "15px 10px";
-//     document.getElementById("navbar").style.backgroundColor = "#EA2A35";
-//     document.getElementById("navbar").style.marginTop = "-5px";
-//     document.getElementById("logo").style.fontSize = "20px";     
-//     document.getElementById("navbar").style.boxShadow = "0 0 5px 5px #fff";      
-    
-//   } else {
-//     document.getElementById("navbar").style.backgroundColor = "transparent";
-//     document.getElementById("logo").style.fontSize = "25px";
-//     document.getElementById("links").style.marginTop = "100px"; 
-//   }
-// }
-
-// $(document).ready(function(){
- 
-
-//   var typed = new Typed(".typing", {
-//     strings: [ "Read Our Blogs....","About our workshops....", "Our Trainings....","Meet Campus Leaders...."],
-//     typeSpeed: 100,
-//     backSpeed: 60,
-//     loop: true
-//   });
-
-// });
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+});
