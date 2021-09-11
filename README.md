@@ -4,6 +4,6 @@ Main Repo to Manage All
 
 Under Construction
  
-https://mahmudamitu.github.io/School-Of-Inspiration-Official-Website/
+https://mitu1403.github.io/SOI-Official-Website/
 
 https://soiglobal.org/
