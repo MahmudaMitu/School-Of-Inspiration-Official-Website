@@ -39,17 +39,17 @@ body {
   background: #ece9e6;
   background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
   background: linear-gradient(to right, #ffffff, #ece9e6);
+  /*background-color: #efefef;*/
 }
 .styl {
   border: 1px solid red;
 }
 /*  Header/Banner   */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/bulb3.jpg);
+  background-image: url(../img/SOI\ website\ cover.png);
   height: 100vh;
   background-size: cover;
-  background-position: center center;
+  background-position: 50% 20%;
 }
 .banner-text {
   position: absolute;
