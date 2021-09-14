@@ -49,7 +49,7 @@ header {
   background-image: url(../img/SOI\ website\ cover.png);
   height: 100vh;
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: 50% 10%;
 }
 .banner-text {
   position: absolute;
@@ -285,7 +285,7 @@ button div {
 /*    NavBar   */
 nav {
   position: sticky;
-  top: 0;
+  top: 0px;
   background-color: transparent;
 }
 nav .cont {
@@ -293,13 +293,14 @@ nav .cont {
 }
 nav .cont ul li {
   display: inline-block;
-  background-color: white;
+  background-color: transparent;
 }
 nav .cont ul li a {
   display: inline-block;
   text-decoration: none;
   padding: 0px 0px 15px 0px;
-  color: #141e30;
+  /*color: #141e30;*/
+  color: white;
   font-size: 14px;
   transition: color 0.4s ease-out;
 }
@@ -315,10 +316,12 @@ nav {
   padding: 15px 0px 0px 0px;
   transition: all ease 0.65s;
   z-index: 100;
-  color: #141e30;
+  /*color: #141e30;*/
   font-family: nunito;
   font-weight: 600;
   text-transform: uppercase;
+  background-color: #143d4b;
+  color: white;
 }
 ul {
   list-style: none;
@@ -350,6 +353,9 @@ nav.scroll {
   position: fixed;
 }
 nav.scroll li {
+  color: #141e30;
+}
+nav.scroll li a {
   color: #141e30;
 }
 /* Common Section Styling */
@@ -820,6 +826,13 @@ section {
   }
 }
 @media (max-width: 410px) {
+  header {
+    background-image: url(../img/SOI\ website\ cover.png);
+    height: 93vh;
+
+    background-size: cover;
+    background-position: 30% 20%;
+  }
   .about .who_we_are {
     font-size: 60px;
   }
