@@ -49,7 +49,7 @@ header {
   background-image: url(../img/SOI\ website\ cover.png);
   height: 100vh;
   background-size: cover;
-  background-position: 50% 10%;
+  background-position: 50% 20%;
 }
 .banner-text {
   position: absolute;
@@ -299,8 +299,7 @@ nav .cont ul li a {
   display: inline-block;
   text-decoration: none;
   padding: 0px 0px 15px 0px;
-  /*color: #141e30;*/
-  color: white;
+  color: #141e30;
   font-size: 14px;
   transition: color 0.4s ease-out;
 }
@@ -316,12 +315,10 @@ nav {
   padding: 15px 0px 0px 0px;
   transition: all ease 0.65s;
   z-index: 100;
-  /*color: #141e30;*/
+  color: #141e30;
   font-family: nunito;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: #143d4b;
-  color: white;
 }
 ul {
   list-style: none;
@@ -355,9 +352,7 @@ nav.scroll {
 nav.scroll li {
   color: #141e30;
 }
-nav.scroll li a {
-  color: #141e30;
-}
+
 /* Common Section Styling */
 section {
   align-items: center;
