@@ -46,10 +46,12 @@ body {
 }
 /*  Header/Banner   */
 header {
-  background-image: url(../img/SOI\ website\ cover.png);
-  height: 100vh;
+  background-image: url(../img/SOI\ website\ cover\ 06.png);
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: center 0%;
+  background-color: #efefef;
+  margin-top: -53px;
+  height: 100vh;
 }
 .banner-text {
   position: absolute;
@@ -799,6 +801,19 @@ section {
   }
 }
 @media (max-width: 1050px) {
+  header {
+    background-image: url(../img/SOI\ website\ cover\ 05.png);
+    margin-top: -53px;
+    background-size: cover;
+    background-position: center 0%;
+    background-color: #efefef;
+    height: 100vh;
+  }
+  /*header {
+    background-color: #efefef;
+    margin-top: 0px;
+    height: auto;
+  }*/
   .who_we_are {
     font-size: 70px;
   }
@@ -821,12 +836,28 @@ section {
   }
 }
 @media (max-width: 410px) {
-  header {
+  /*header {
+    background-color: #efefef;
+    margin-top: 0px;
+    height: auto;
+  }*/
+  /*header {
     background-image: url(../img/SOI\ website\ cover.png);
     height: 93vh;
 
     background-size: cover;
     background-position: 30% 20%;
+  }*/
+  header {
+    background-image: url(../img/SOI\ website\ cover\ 06.png);
+    margin-top: 0px;
+    background-size: cover;
+    background-position: 40% 0%;
+    background-color: #efefef;
+    height: 70vh;
+  }
+  .about .row {
+    padding-top: 30px;
   }
   .about .who_we_are {
     font-size: 60px;
