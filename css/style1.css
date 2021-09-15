@@ -49,7 +49,6 @@ header {
   background-image: url(../img/SOI\ website\ cover\ 06.png);
   background-size: cover;
   background-position: center 0%;
-  background-color: #efefef;
   margin-top: -53px;
   height: 100vh;
 }
@@ -836,6 +835,23 @@ section {
   }
 }
 @media (max-width: 410px) {
+  .gap {
+    background-image: url(../img/SOI\ website\ cover\ 06.png);
+    background-position: center center;
+    background-size: cover;
+    background-color: #efefef;
+    filter: blur(3px);
+    transform: rotate(180deg);
+    background-image: url(../img/SOI\ website\ cover\ blur.png);
+    margin-top: 0px;
+    background-size: cover;
+    background-position: 55% 100%;
+    background-color: #efefef;
+    height: 40vh;
+    z-index: -1;
+    margin-top: -5px;
+    transform: scaleX(-1) rotate(180deg);
+  }
   /*header {
     background-color: #efefef;
     margin-top: 0px;
@@ -847,7 +863,11 @@ section {
 
     background-size: cover;
     background-position: 30% 20%;
-  }*/
+  }
+  .about .row {
+    padding-top: 30px;
+  }
+  */
   header {
     background-image: url(../img/SOI\ website\ cover\ 06.png);
     margin-top: 0px;
@@ -855,9 +875,6 @@ section {
     background-position: 55% 0%;
     background-color: #efefef;
     height: 70vh;
-  }
-  .about .row {
-    padding-top: 30px;
   }
   .about .who_we_are {
     font-size: 60px;
