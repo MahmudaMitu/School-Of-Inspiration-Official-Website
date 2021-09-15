@@ -846,12 +846,12 @@ section {
     background-image: url(../img/SOI\ website\ cover\ 06.png);
     margin-top: 0px;
     background-size: cover;
-    background-position: 55% 100%;
+    background-position: 55% 0%;
     background-color: #efefef;
     height: 70vh;
     z-index: -1;
-    margin-top: -5px;
-    transform: scaleX(-1) rotate(180deg);
+    margin-top: -4px;
+    transform: scaleX(-1.03) rotate(180deg);
   }
   /*header {
     background-color: #efefef;
