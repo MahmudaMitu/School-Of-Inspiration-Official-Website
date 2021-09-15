@@ -850,7 +850,7 @@ section {
     background-color: #efefef;
     height: 70vh;
     z-index: -1;
-    margin-top: -4px;
+    margin-top: -5px;
     transform: scaleX(-1.03) rotate(180deg);
   }
   /*header {
