@@ -52,7 +52,6 @@ header {
   background-color: #efefef;
   margin-top: -53px;
   height: 112vh;
-  z-index: 1;
 }
 .banner-text {
   position: absolute;
@@ -290,7 +289,6 @@ nav {
   position: sticky;
   top: 0px;
   background-color: transparent;
-  z-index: 99999;
 }
 nav .cont {
   text-align: center;
@@ -878,7 +876,6 @@ section {
     background-position: 55% 0%;
     background-color: #efefef;
     height: 70vh;
-    z-index: 10;
   }
   .abt {
     margin-top: -10px;
