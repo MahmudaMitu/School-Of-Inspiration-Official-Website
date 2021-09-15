@@ -49,8 +49,9 @@ header {
   background-image: url(../img/SOI\ website\ cover\ 06.png);
   background-size: cover;
   background-position: center 0%;
+  background-color: #efefef;
   margin-top: -53px;
-  height: 100vh;
+  height: 112vh;
 }
 .banner-text {
   position: absolute;
@@ -842,12 +843,12 @@ section {
     background-color: #efefef;
     filter: blur(3px);
     transform: rotate(180deg);
-    background-image: url(../img/SOI\ website\ cover\ blur.png);
+    background-image: url(../img/SOI\ website\ cover\ 06.png);
     margin-top: 0px;
     background-size: cover;
     background-position: 55% 100%;
     background-color: #efefef;
-    height: 40vh;
+    height: 70vh;
     z-index: -1;
     margin-top: -5px;
     transform: scaleX(-1) rotate(180deg);
@@ -876,8 +877,13 @@ section {
     background-color: #efefef;
     height: 70vh;
   }
+  .abt {
+    margin-top: -10px;
+    z-index: -2;
+  }
   .about .who_we_are {
-    font-size: 60px;
+    margin-top: -70px;
+    font-size: 50px;
   }
   .text-area {
     font-size: 25px;
