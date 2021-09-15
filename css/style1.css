@@ -843,7 +843,7 @@ section {
     background-position: center center;
     background-size: cover;
     background-color: #efefef;
-    filter: blur(3px);
+    filter: blur(1px);
     transform: rotate(180deg);
     background-image: url(../img/SOI\ website\ cover\ 06.png);
     margin-top: 0px;
@@ -852,8 +852,8 @@ section {
     background-color: #efefef;
     height: 70vh;
     z-index: -1;
-    margin-top: -10px;
-    transform: scaleX(-1.03) rotate(180deg);
+    margin-top: -2px;
+    transform: scaleX(-1.01) rotate(180deg);
   }
   /*header {
     background-color: #efefef;
