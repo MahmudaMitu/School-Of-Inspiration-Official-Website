@@ -904,6 +904,9 @@ section {
   .workshop .our_recent_workshop {
     font-size: 30px;
   }
+  .wrkshp_pic {
+    margin-left: 10%;
+  }
   .webinar .web {
     font-size: 30px;
   }
