@@ -350,6 +350,7 @@ nav a:hover:after {
 nav.scroll {
   background-image: url(../img/map-new.png);
   background-color: white;
+  background-repeat: repeat-x;
   background-size: cover;
   background-position: center center;
   position: fixed;
