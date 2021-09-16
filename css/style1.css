@@ -288,7 +288,7 @@ button div {
 nav {
   position: sticky;
   top: 0px;
-  background-color: transparent;
+  background: transparent;
 }
 nav .cont {
   text-align: center;
@@ -348,7 +348,10 @@ nav a:hover:after {
 }
 /*  Scrolling CSS */
 nav.scroll {
-  background: white;
+  background-image: url(../img/map-new.png);
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
   position: fixed;
 }
 nav.scroll li {
@@ -529,7 +532,7 @@ section {
 
 .image__overlay--blur {
   text-shadow: none;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(6px);
 }
 
 .image__overlay > * {
@@ -643,9 +646,9 @@ section {
   font-family: poppins_sb;
 }
 .blog .text {
-  text-shadow: 0.5px 0.5px 1.5px #292929;
-  font-family: nunito;
-  font-weight: 400;
+  font-family: poppins_sb;
+  font-size: 50px;
+  font-weight: 700;
 }
 .blog .item_container {
   height: 45vh;
@@ -836,7 +839,7 @@ section {
   }
 }
 @media (max-width: 410px) {
-  .gap {
+  /*.gap {
     background-image: url(../img/SOI\ website\ cover\ 06.png);
     background-position: center center;
     background-size: cover;
@@ -853,7 +856,7 @@ section {
     margin-top: -2px;
     transform: scaleX(-1.01) rotate(180deg);
   }
-  /*header {
+  header {
     background-color: #efefef;
     margin-top: 0px;
     height: auto;
@@ -875,14 +878,10 @@ section {
     background-size: cover;
     background-position: 55% 0%;
     background-color: #efefef;
-    height: 70vh;
-  }
-  .abt {
-    margin-top: -10px;
-    z-index: -2;
+    height: 50vh;
   }
   .about .who_we_are {
-    margin-top: -70px;
+    margin-top: -30px;
     font-size: 50px;
   }
   .text-area {
@@ -912,6 +911,9 @@ section {
   }
   .blog .article-title-link {
     margin-left: -100px;
+  }
+  .blog .text {
+    font-size: 30px;
   }
 }
 @media (max-width: 340px) {
