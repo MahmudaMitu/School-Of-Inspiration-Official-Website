@@ -365,7 +365,7 @@ section {
   justify-content: center;
 }
 .sec {
-  height: 10vh;
+  height: 7vh;
 }
 /*   About   */
 .about {
@@ -915,6 +915,9 @@ section {
   }
   .blog .text {
     font-size: 30px;
+  }
+  .sec {
+    height: 0vh;
   }
 }
 @media (max-width: 340px) {
